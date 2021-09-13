@@ -2,9 +2,9 @@ let form = document.getElementById('addForm');
 let itemList = document.getElementById('items'); // the ul
 let filter = document.getElementById('filter');
 
-// Form submit event
+// Form submit event (add items to the list)
 form.addEventListener('submit', addItem);
-// Detele event
+// Detele event (delete item from the list)
 itemList.addEventListener('click', removeItem);
 // Filter event
 filter.addEventListener('keyup', filterItems);
